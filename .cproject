@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.settings">
+        		
+        <cconfiguration id="com.arm.toolchain.v6.2049397746">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.arm.toolchain.v6.2049397746" moduleId="org.eclipse.cdt.core.settings" name="Default">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="${ProjName}" buildProperties="" description="" id="com.arm.toolchain.v6.2049397746" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+                    					
+                    <folderInfo id="com.arm.toolchain.v6.2049397746.2144379090" name="/" resourcePath="">
+                        						
+                        <toolChain id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.toolchain.var.gcc-7.5.0-aarch64-elf.2119886614" name="GCC 7.5.0 [aarch64-elf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.toolchain.var.gcc-7.5.0-aarch64-elf">
+                            							
+                            <targetPlatform id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.toolchain.var.gcc-7.5.0-aarch64-elf.2119886614.508918771" name=""/>
+                            							
+                            <builder id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.target.builder.867931905" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.target.builder"/>
+                            							
+                            <tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.c.compiler.var.gcc-7.5.0-aarch64-elf.891436913" name="GCC C Compiler 7.5.0 [aarch64-elf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.c.compiler.var.gcc-7.5.0-aarch64-elf">
+                                								
+                                <inputType id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.c.compiler.input.47616132" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.c.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.cpp.compiler.var.gcc-7.5.0-aarch64-elf.445060579" name="GCC C++ Compiler 7.5.0 [aarch64-elf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.cpp.compiler.var.gcc-7.5.0-aarch64-elf">
+                                								
+                                <inputType id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.c.compiler.input.908852355" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.c.compiler.input"/>
+                                								
+                                <inputType id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.cpp.compiler.input.608588846" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.cpp.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.assembler.var.gcc-7.5.0-aarch64-elf.1057295054" name="GCC Assembler 7.5.0 [aarch64-elf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.assembler.var.gcc-7.5.0-aarch64-elf">
+                                								
+                                <inputType id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.assembler.input.555761186" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.assembler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.c.linker.var.gcc-7.5.0-aarch64-elf.1725947045" name="GCC C Linker 7.5.0 [aarch64-elf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.c.linker.var.gcc-7.5.0-aarch64-elf"/>
+                            							
+                            <tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.cpp.linker.var.gcc-7.5.0-aarch64-elf.1676573616" name="GCC C++ Linker 7.5.0 [aarch64-elf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.cpp.linker.var.gcc-7.5.0-aarch64-elf"/>
+                            							
+                            <tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.archiver.var.gcc-7.5.0-aarch64-elf.240826008" name="GCC Archiver 7.5.0 [aarch64-elf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.archiver.var.gcc-7.5.0-aarch64-elf"/>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+        		
+        <project id="calendar_ARMv8_GCC.null.1049790540" name="calendar_ARMv8_GCC"/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="scannerConfiguration">
+        		
+        <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+    	
+    <storageModule moduleId="refreshScope" versionNumber="2">
+        		
+        <configuration configurationName="Default">
+            			
+            <resource resourceType="PROJECT" workspacePath="/calendar_ARMv8_GCC"/>
+            		
+        </configuration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+    
+</cproject>
